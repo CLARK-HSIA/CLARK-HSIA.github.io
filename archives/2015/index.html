@@ -37,16 +37,16 @@ MARK!
     <![endif]-->
 
     <!-- Google Webfonts (Monserrat 400/700, Open Sans 400/600) -->
-    <!--link href='//fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'-->
-    <!--link href='//fonts.useso.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'-->
+    <link href='//fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.useso.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 
     <!-- Load our fonts individually if IE8+, to avoid faux bold & italic rendering -->
     <!--[if IE]>
-    <!--link href='http://fonts.useso.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'-->
-    <!--link href='http://fonts.useso.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'-->
-    <!--link href='http://fonts.useso.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'-->
-    <!--link href='http://fonts.useso.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'-->
-    <!--[endif]-->
+    <link href='http://fonts.useso.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <[endif]-->
 
     <!-- jQuery | Load our jQuery, with an alternative source fallback to a local version if request is unavailable -->
     <script src="/js/jquery-1.11.1.min.js"></script>
@@ -90,9 +90,10 @@ MARK!
         <!-- Lists in Slidebars -->
         <ul class="sb-menu">
             <li><a href="/" class="animsition-link" title="Home">Home</a></li>
+            <li><a href="/messageboard" class="animsition-link" title="Message Board">Message Board</a></li>
             <li><a href="/archives" class="animsition-link" title="archive">archives</a></li>
             <!-- Dropdown Menu -->
-			 
+			<!--
             <li>
                 <a class="sb-toggle-submenu">Works<span class="sb-caret"></span></a>
                 <ul class="sb-submenu">
@@ -103,8 +104,17 @@ MARK!
                     
                 </ul>
             </li>
+            -->
             
-            
+        	<li>
+        		<a class="sb-toggle-submenu">Categories<span class="sb-caret"></span></a>
+            	<ul class="sb-submenu">
+				  	
+				    <li><a href="/categories/娱乐/" class="animsition-link">娱乐<small>(1)</small></a></li>
+				    
+				</ul>
+        	</li>
+			
             
             <li>
                 <a class="sb-toggle-submenu">Links<span class="sb-caret"></span></a>
@@ -119,7 +129,7 @@ MARK!
         <!-- Lists in Slidebars -->
         <ul class="sb-menu secondary">
             <li><a href="/about.html" class="animsition-link" title="about">About</a></li>
-            <li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>
+            <!--<li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>-->
         </ul>
     </div>
     
@@ -260,7 +270,7 @@ MARK!
     <div class="container">
             <div class="copy">
                 <p>
-                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By Clark. All Rights Reserved. Visited <span id="busuanzi_value_site_pv"></span> times.
+                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By Clark. All Rights Reserved. Visited <span id="busuanzi_value_site_pv"></span> times. 
                 </p>
             </div>
             <div class="social">
